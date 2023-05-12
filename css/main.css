@@ -1,0 +1,89 @@
+@font-face { font-family: IBMPlex;
+    src: url('IBMPlexSans-SemiBold.ttf');}
+
+
+.name {
+    font-family: IBMPlex, sans;
+    font-size: 100px;
+    display: flex;
+    height: 50%;
+    justify-content: center;
+}
+.landscape {
+    height: 200px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.profile {
+    height: 200px;
+    margin-left: 10px;
+    border-radius: 17px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #18272F;
+    font-weight: 700;
+    position: relative;
+}
+
+a::before {
+    content: '';
+    background-color: hsla(196, 61%, 58%, .75);
+    position: absolute;
+    left: 0;
+    bottom: 3px;
+    width: 100%;
+    height: 8px;
+    z-index: -1;
+    transition: all .3s ease-in-out;
+}
+
+a:hover::before {
+    bottom: 0;
+    height: 100%;
+}
+
+.biotext {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.leftimage {
+    float: left;
+}
+
+.rightimage {
+    margin-left: 0%;
+    float: left;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+
+.bio {
+    font-family: IBMPlex, sans;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+}
+
+.leftbio {
+    float: left;
+    text-align: right;
+}
+
+.rightbio {
+    margin-left: 0%;
+    float: left;
+}
+
+.a { display: inline-block;}
+
